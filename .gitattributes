@@ -1,0 +1,10 @@
+# Normalise line endings for text sources
+* text=auto
+*.ino text
+*.md  text
+
+# KiCad and manufacturing files: keep byte-for-byte as generated
+*.kicad_sch  -text
+*.kicad_pcb  -text
+*.kicad_pro  -text
+*.gbl *.gbs *.gbp *.gbo *.gm1 *.gtl *.gts *.gtp *.gto *.gbr *.drl  -text

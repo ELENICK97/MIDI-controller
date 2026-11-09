@@ -1,0 +1,28 @@
+# KiCad: local user settings, caches, backups and lock files
+*.kicad_prl
+fp-info-cache
+*-backups/
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+~*.lck
+_autosave-*
+*-save.pro
+*-save.kicad_pcb
+\#auto_saved_files\#
+
+# Third-party part libraries (not redistributable, see README > Credits)
+LIB_*/
+LIB_*.zip
+
+# Arduino build output
+build/
+*.hex
+*.elf
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
