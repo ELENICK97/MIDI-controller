@@ -66,7 +66,7 @@ The CC numbers are defined as `#define`s at the top of the sketch, so you can ch
 
 ## Known issues
 
-- **Absolute include path.** The sketch includes `SoftwareSerialMIDI_Interface.hpp` through an absolute Windows path (`C:\Users\nicol\Documents\Arduino\libraries\...`). On any other computer, change that line to:
+- **Absolute include path.** The sketch includes `SoftwareSerialMIDI_Interface.hpp` through an absolute Windows path (`C:\Users\xxxxxx\Documents\Arduino\libraries\...`). On any other computer, change that line to:
   ```cpp
   #include <MIDI_Interfaces/SoftwareSerialMIDI_Interface.hpp>
   ```
