@@ -41,7 +41,7 @@
 
 #include <Control_Surface.h>
 #include <SoftwareSerial.h>
-#include "C:\Users\nicol\Documents\Arduino\libraries\Control_Surface\src\MIDI_Interfaces\SoftwareSerialMIDI_Interface.hpp"
+#include "C:\Users\xxxxxx\Documents\Arduino\libraries\Control_Surface\src\MIDI_Interfaces\SoftwareSerialMIDI_Interface.hpp"
 
 
 SoftwareSerial SFSer1(8, -1); 
