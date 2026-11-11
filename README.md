@@ -5,6 +5,7 @@ A DIY USB MIDI controller built on an **Arduino Leonardo**, with a custom shield
 It has 9 slide faders, 8 rotary knobs, a 2-axis joystick (modulation wheel and pitch bend), 8 latching buttons and 8 momentary push buttons. It also has a **5-pin DIN MIDI IN** port, and whatever arrives there is forwarded to the computer over USB. So the board also works as a simple MIDI-to-USB interface for an external keyboard.
 
 The faders are meant to be used like Hammond-style drawbars.
+<img width="1511" height="1146" alt="FinalBoard" src="https://github.com/user-attachments/assets/7f3ee1e1-0b65-41ed-80f0-1b9349a3b6aa" />
 
 ## Features
 
